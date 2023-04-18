@@ -12,6 +12,19 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        highlight: {
+          '0%': {
+            background: '#8f8',
+          },
+          '100%': {
+            background: 'none',
+          },
+        }
+      },
+      animation: {
+        highlight: 'highlight 1s',
+      }
     },
   },
   plugins: [],
